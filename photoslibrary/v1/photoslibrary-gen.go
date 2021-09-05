@@ -12,7 +12,7 @@
 //
 // Usage example:
 //
-//   import "github.com/bobg/google-api-go-client/photoslibrary/v1"
+//   import "google.golang.org/api/photoslibrary/v1"
 //   ...
 //   ctx := context.Background()
 //   photoslibraryService, err := photoslibrary.NewService(ctx)
@@ -39,7 +39,7 @@
 //   photoslibraryService, err := photoslibrary.NewService(ctx, option.WithTokenSource(config.TokenSource(ctx, token)))
 //
 // See https://godoc.org/google.golang.org/api/option/ for details on options.
-package photoslibrary // import "github.com/bobg/google-api-go-client/photoslibrary/v1"
+package photoslibrary // import "google.golang.org/api/photoslibrary/v1"
 
 import (
 	"bytes"
